@@ -1,0 +1,80 @@
+#title {
+  text-align: center;
+  color: rgb(20, 134, 34);
+  border: 2px solid green;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+
+  
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+  background-color: rgb(244, 185, 172);
+}
+#pic {
+  width: 40%;
+  margin-left: 250px;
+  margin-top: 70px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  opacity: 0.5;
+}
+#pic:hover {
+  opacity: 1.0;
+}
+#name {
+  text-align: center;
+   border-style: dotted;
+  border-color: blue;
+  font-size: 35px;
+  text-decoration: underline;
+  background-color:rgb(20, 134, 34) ;
+  border: 2px solid green;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  letter-spacing: 3px;
+   text-shadow: 2px 2px pink;
+  text-overflow: clip;
+}
+#quote {
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: rgb(20, 134, 34);
+  font-family: "Inconsolata", monospace;
+}
+#superlative {
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: rgb(20, 134, 34);
+  font-family: "Inconsolata", monospace;
+}
+#back {
+  border-radius: 50%;
+  padding: 15px 32px;
+  background-color: rgb(189, 244, 172);
+  color: rgb(20, 134, 34);
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+}
+#next {
+  border-radius: 50%;
+  padding: 15px 32px;
+  background-color: rgb(189, 244, 172);
+  color: rgb(20, 134, 34);
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+}
